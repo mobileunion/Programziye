@@ -6,8 +6,8 @@ name: sync_ziye
 on:
  schedule:
    - cron: '1 */3 * * *'
-   workflow_dispatch:
-   watch:         
+  workflow_dispatch:
+  watch:         
     types: started
    repository_dispath:
     types: sync-ziye888-JavaScript
